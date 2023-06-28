@@ -1,0 +1,124 @@
+@media screen and (max-width:1440px) {
+
+    body{
+        font-family: 'Poppins', sans-serif;
+        margin: 2em 2em 0 2em;
+        padding: 6em;
+        /* border: 1px;
+        border-radius: 5px; */
+        /* box-shadow: 0px 5px 15px 0px silver; */
+        color: #f1f1f1;
+        background-image: url(images/bg-intro-desktop.png);
+        background-color:#ff7a7a;
+    
+    
+    }
+    
+    
+    .whitebackground{
+        /* margin: 2em 2em 0 2em;
+        padding: 6em;
+        border: 1px;
+        border-radius: 5px;
+        box-shadow: 0px 5px 15px 0px silver;
+        color: #f1f1f1;
+        background-image: url(images/bg-intro-desktop.png);
+        background-color:#ff7a7a; */
+    }
+    
+    .main{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    /* texts */
+    .texts{
+        margin-top: 5em;
+    }
+    strong{
+        display: block;
+        font-size: xx-large;
+        font-weight: 900;
+        width: 20ch;
+        word-wrap: break-word;
+    }
+    
+    .p-txt{
+        line-height: 1.6;
+        font-weight: 400;
+        font-size: small;
+        width: 50ch;
+    }
+    
+    /* form */
+    
+    form{
+        width: 75%;
+        display: block;
+     }
+    
+     .form-head{
+        text-align: center;
+        box-shadow: 0px 9px 12px 0px rgb(0, 0, 0, 0.24);
+        background-color: darkblue;
+        border: 1px;
+        border-radius: 5px;
+        padding: 0.9em 1.6em;
+        font-size: small;
+        margin-top: -5em;
+        margin-bottom: 1.5em;
+        font-weight: 700;
+    }
+    
+    .sub-txt{
+        font-size: small;
+        font-weight: 200;
+    }
+    
+    .inputs{
+        display: grid;
+        background-color: #f1f1f1;
+        border: 1px;
+        border-radius: 5px;
+        box-shadow: 0px 5px 16px 0px rgb(0, 0, 0, 0.24);
+    }
+    
+    input, button{
+        padding: 0.8em 1em;
+        margin: 0.5em 2em;
+        border: 0.1px solid #c0bbbbc5;
+        border-radius: 4px;
+        font-weight: 900;
+        font-size: smaller;
+    }
+    
+    .input1{
+        margin-top: 1.7em;
+    }
+    
+    button{
+        text-transform: uppercase;
+        color: #f1f1f1;
+        border: none;
+        font-weight: 600;
+        background-color: #38cc8c;
+        box-shadow: 1px 2px 9px 0px rgb(0, 0, 0, 0.24);
+    }
+    
+    form{
+       width: 120%; 
+    }
+    
+    .termscondition{
+     margin: 1em auto 3em auto;
+     color: black;
+     font-weight: 300;
+     font-size: x-small;
+     text-align: center;
+    }
+    
+    .red{
+        color: #ff0000;
+    }
+    
+    }
